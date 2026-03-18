@@ -35,11 +35,17 @@ export default function Hero() {
         {/* Buttons */}
         <div className="mt-10 flex flex-col sm:flex-row gap-4 justify-center md:justify-start">
 
-          <button className="px-8 py-3 rounded-full border border-gray-500 text-sm tracking-wide backdrop-blur-md transition-all duration-300 hover:bg-white hover:text-black hover:border-white hover:scale-105">
+          <button
+            onClick={() => document.getElementById('project')?.scrollIntoView({ behavior: 'smooth' })}
+            className="px-8 py-3 rounded-full border border-gray-500 text-sm tracking-wide backdrop-blur-md transition-all duration-300 hover:bg-white hover:text-black hover:border-white hover:scale-105"
+          >
             View Projects
           </button>
 
-          <button className="px-8 py-3 rounded-full border border-gray-500 text-sm tracking-wide backdrop-blur-md transition-all duration-300 hover:bg-white hover:text-black hover:border-white hover:scale-105">
+          <button
+            onClick={() => document.getElementById('contactMe')?.scrollIntoView({ behavior: 'smooth' })}
+            className="px-8 py-3 rounded-full border border-gray-500 text-sm tracking-wide backdrop-blur-md transition-all duration-300 hover:bg-white hover:text-black hover:border-white hover:scale-105"
+          >
             Contact Me
           </button>
 

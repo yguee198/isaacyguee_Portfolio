@@ -3,7 +3,7 @@ import projects from "../data/project";
 
 const Projects = () => {
   return (
-    <section className="bg-black text-white min-h-screen px-10 py-20">
+    <section id="project" className="bg-black text-white min-h-screen px-10 py-20">
 
       <h1 className="text-6xl font-bold mb-16 text-center">
         My Projects

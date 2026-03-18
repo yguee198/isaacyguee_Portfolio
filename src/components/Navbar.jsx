@@ -3,8 +3,8 @@ export default function Navbar() {
     { name: 'Home', href: '#home' },
     { name: 'About', href: '#about' },
     { name: 'Resume', href: '#resume' },
-
-    { name: 'ContactMe', href: '#Contact' }
+    { name: 'Projects', href: '#project' },
+    { name: 'ContactMe', href: '#contactMe' }
   ];
 
   return (
